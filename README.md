@@ -18,7 +18,7 @@ Click on the links below for documentation on each of the technologies used. Thi
 + [**Anaconda**](https://docs.anaconda.com/): an open source package and environment management system.
 + [**JupyterLab**](https://jupyterlab.readthedocs.io/en/stable/): an extensive environment using web-based user interface designed for data analysis. 
 + [**Pandas**](https://pandas.pydata.org/docs/getting_started/index.html): (included in Anaconda) a Python package data analysis toolkit.
-+ [**hvPlot**](https://hvplot.holoviz.org/) and [**GeoViews**](https://pypi.org/project/geoviews/) incorporated into this project. 
++ [**hvPlot**](https://hvplot.holoviz.org/) incorporated into this project. 
 + [**Numpy**](https://numpy.org/doc/stable/) for scientific computing such as mathematical, basic statistical operations, and much more. 
 + [**SQLAlchemy**](https://docs.sqlalchemy.org/en/14/) (included in Anaconda) is an open-source SQL library designed to ease communication between Python-based programs and databases. 
 + [**Voilà**](https://voila.readthedocs.io/en/stable/) allows you to convert a Jupyter Notebook into an interactive dashboard that allows you to share your work with 
@@ -48,9 +48,8 @@ To exit JupyterLab:
 
 ## Usage
 
-1. Clone the repository 
-2. Using your terminal, activate the environemnt and launch jupyter lab (instructions mentioned above).
-
+1. Clone the repository `https://github.com/leighbadua/etf_analyzer.git`
+2. Using your terminal, activate the environment and launch jupyter lab (instructions mentioned above).
 
 3. ETF Analyzer on Jupyter Lab:
 ![image](https://user-images.githubusercontent.com/96001018/154873135-bdebb7ba-9304-4d3d-8705-24351f0c18ee.png)
@@ -76,7 +75,7 @@ To exit JupyterLab:
     * To deploy the jupyter notebook as a web application, use the following code into your terminal (after cloning and `cd` into the repository location):
   `voila etf_analyzer.ipynb`
   
- Below are images of the web application using Voila:
+ Below are images of the web application using Voila showcasing the hvplot visualizations:
  
 ![image](https://user-images.githubusercontent.com/96001018/154877305-ed2f12f1-74a2-44b7-abea-d41ca9d08a01.png)
 ![image](https://user-images.githubusercontent.com/96001018/154877363-485be7de-77ff-4f27-bd43-a705c22c8807.png)
